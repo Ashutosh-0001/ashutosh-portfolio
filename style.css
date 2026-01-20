@@ -54,3 +54,57 @@ footer {
   margin-top: 40px;
   font-size: 14px;
   }
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid #00ff99;
+  box-shadow: 0 0 25px #00ff99;
+}
+
+/* Terminal text */
+#terminal {
+  font-size: 18px;
+  white-space: pre-line;
+  min-height: 120px;
+}
+
+/* Glitch effect */
+.glitch {
+  position: relative;
+  color: #00ff99;
+  font-size: 32px;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+
+.glitch::before {
+  color: #00ffaa;
+  animation: glitch 2s infinite;
+}
+
+.glitch::after {
+  color: #00cc77;
+  animation: glitch 1.5s infinite reverse;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
