@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ashutosh | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="tools.html">Tools</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h1>Ashutosh Kumar Singh</h1>
+    <p><b>Student | Aspiring Cybersecurity Professional</b></p>
+    <p>Python developer focused on ethical hacking and security research.</p>
+  </div>
+
+  <div class="card">
+    <h2>Mission</h2>
+    <p>
+      Building tools, learning continuously, and solving real-world security problems
+      with a responsible and ethical mindset.
+    </p>
+  </div>
+</div>
+
+<footer>
+  © 2026 Ashutosh | Hack • Learn • Build
+</footer>
+
+</body>
+</html>
